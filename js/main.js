@@ -1,4 +1,4 @@
-
+// fun
 document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector("#nav");
     const ham = document.querySelector("#ham");

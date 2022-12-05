@@ -43,3 +43,10 @@ body {
     border-radius: 30px;
     cursor: pointer;
 }
+
+#note {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 60px;
+}

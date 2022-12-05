@@ -24,10 +24,23 @@
     </div>
     <div></div>
     <div></div>
-    <div></div>
+    <div id="note"></div>
     <div></div>
     <div id="ground">
     </div>
+    <script>
+        var i = 0;
+        var txt = 'Under Construction 👷.';
+        var speed = 100;
+
+        function typeWriter() {
+            if (i < txt.length) {
+            document.querySelector("#note").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
     <script src="./js/main.js"></script>
 </body>
 

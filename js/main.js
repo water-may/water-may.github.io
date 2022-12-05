@@ -1,14 +1,3 @@
-var i = 0;
-var txt = 'Under Construction 👷.';
-var speed = 100;
-
-function typeWriter() {
-    if (i < txt.length) {
-    document.querySelector("#note").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-    }
-}
 
 document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector("#nav");

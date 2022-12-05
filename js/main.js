@@ -1,4 +1,4 @@
-import * as THREE from '../node_modules/three/build/three.module';
+import * as THREE from '../node_modules/three/build/three.module.js';
 import { TrackballControls } from '../node_modules/three/examples/jsm/controls/TrackballControls.js';
 
 const scene = new THREE.Scene();

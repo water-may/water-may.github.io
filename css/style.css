@@ -1,18 +1,45 @@
 body {
     margin: 0;
+    display: block;
+    background-color: black;
 }
 
-#top {
+#ham {
+    max-width: 40px;
+    min-width: 40px;
+    margin: 4% 0 0 4%;
+}
+
+#top{
+    display: flex;
     width: 100%;
-    height: 20%;
+    min-height: 300px;
+    background-color: rgba(27, 26, 26, 0.733);
+    padding: 0 0 0 0;
+    margin: 0
+}
+
+#nav {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.733);
-    padding: 0 0 5% 0;
+    justify-content: space-evenly;
+    padding: 4% 0 0 4%;
 }
 
 #top a {
+    /* border: solid red 3px; */
     text-decoration: none;
-    padding: 4% 0 0 10%;
-    color: rgb(72, 255, 0);;
+    overflow: hidden;
+    color: rgb(72, 255, 0);
+    font-size: 30px;
+}
+
+#cross {
+    display: flex;
+    max-width: 20px;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.607);
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
 }

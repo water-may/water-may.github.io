@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nugas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="top">
+        <div id="ham">
+            <hr class="hamline">
+            <hr class="hamline">
+            <hr class="hamline">
+        </div>
+        <div id="nav">
+            <div id="cross">x</div>
+            <a href="#" class="links">link</a>
+            <a href="#" class="links">link</a>
+            <a href="#" class="links">link</a>
+            <a href="#" class="links">link</a>
+        </div>    
+    </div>
+    <div></div>
+    <div></div>
+    <div id="note"></div>
+    <div></div>
+    <div id="ground">
+    </div>
+    <script>
+        var i = 0;
+        var txt = 'Under Construction 👷.';
+        var speed = 100;
+
+        function typeWriter() {
+            if (i < txt.length) {
+            document.querySelector("#note").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
